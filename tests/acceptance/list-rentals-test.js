@@ -54,6 +54,7 @@ module('Acceptance | list rentals', function(hooks) {
     assert.ok(this.element.querySelector('.listing .location').textContent.includes('Seattle'), 'should contain 1 listing with location Seattle');
   });
 
+  // Related to second last step
   test('should show details for a selected rental', async function (assert) {
   });
 
